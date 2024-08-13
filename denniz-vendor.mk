@@ -1258,9 +1258,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
+    vendor/oplus/denniz/proprietary/vendor/lib/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21127_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/gc02m1_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/hi846_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi846_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
@@ -1270,20 +1273,26 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw21015_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw21881_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21061_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx355_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx471_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx471_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_20619_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx471_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx471_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx471_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx615_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx615_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx615_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx615_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx682_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx682_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx709_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw21015_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx709_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw_21127_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx709_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx766_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx766_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw21015_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/imx766_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/imx766_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
     vendor/oplus/denniz/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
     vendor/oplus/denniz/proprietary/vendor/lib/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.stat.so \
@@ -1469,6 +1478,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib/ov02b10_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_20619_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/ov02b10_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_21061_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/ov50a_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov50a_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/ov64b_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_20619_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/ov64b_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_21061_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib/ov64b_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_21651_IdxMgr.so \
@@ -1478,9 +1488,12 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
     vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.isphal@1.0.so \
     vendor/oplus/denniz/proprietary/vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.cammidasservice@1.0.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21127_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/hi846_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi846_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
@@ -1492,20 +1505,26 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw21015_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw21881_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_21061_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx355_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx471_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx471_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_20619_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx471_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx471_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_21651_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx471_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx615_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx615_mipi_raw20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx615_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx615_mipi_raw21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx615_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx615_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx615_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx615_mipi_raw_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx682_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx682_mipi_raw_20615_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx709_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx709_mipi_raw21015_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx709_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx709_mipi_raw_21127_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx709_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx709_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx766_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx766_mipi_raw20817_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx766_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx766_mipi_raw21015_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/imx766_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx766_mipi_raw21881_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/imx766_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx766_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.stat.so \
@@ -1728,6 +1747,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov02b10_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_mipi_raw_20619_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov02b10_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_mipi_raw_21061_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov02b10_mipi_raw_IdxMgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib64/ov50a_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov64b_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw_20619_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov64b_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw_21061_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/ov64b_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov64b_mipi_raw_21651_IdxMgr.so \
